@@ -1,0 +1,53 @@
+1. ¿Cuál es la diferencia entre Git y GitHub?
+Respuesta:
+
+Git es un sistema de control de versiones, mientras que GitHub es una plataforma
+en la nube que utiliza a git por detras.
+
+2. ¿Qué diferencia hay entre git add y git commit?
+Respuesta:
+
+Git add prepara los archivos y los mueve al area de preparacion, le indica
+a git que modificaciones se quieren incluir en el proximo guardado
+
+git commit Toma todo lo que esta en el area de preparacion y guarda 
+una version de esos cambios en el historial del repositorio, acompañado
+obligatoriamente con un mensaje descriptivo.
+
+3. ¿Por qué el primer commit no aparece automáticamente en GitHub?
+Respuesta: 
+
+El primer commit no aparece automáticamente en GitHub porque Git y GitHub son
+herramientas distintas que funcionan de forma local y remota respecticamente.
+
+4. ¿Qué hace git push?
+Respuesta: 
+
+El comando git push sube los commits que he guardado en mi repositorio local
+a mi repositorio remoto en este caso GitHub.
+
+5. ¿Qué información muestra git status?
+Respuesta: 
+
+El comando git status muestra el estado actual del directorio de trabajo
+y del área de preparación, me permite ver en qué punto del flujo de trabajo se 
+encuentran mis archivos antes de hacer un commit o un push
+
+6. ¿Por qué es importante revisar git diff antes de registrar cambios?
+Respuesta:
+
+Porque me permite ver exactamente qué líneas de código añadi, modifique o elimine desde 
+mi último commit, con el fin de validar y hacer un control de calidad de los cambios.
+
+7. ¿Qué riesgos tiene subir contraseñas o tokens al repositorio?
+Respuesta:
+
+Subir contraseñas, tokens o claves de acceso a un repositorio implica el riesgo
+inminente de un hackeo o filtración de datos una vez que estos datos sensibles están en 
+internet, los atacantes los detectan casi de inmediato utilizando bots.
+
+8. ¿Para qué sirve el archivo README.md?
+Respuesta: 
+
+Sirve como la carta de presentación y el manual de instrucciones principal de un proyecto en 
+plataformas como GitHub es el primer archivo que lee una persona al visitar mi repositorio.
